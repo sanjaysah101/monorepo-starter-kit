@@ -15,7 +15,8 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "env": ["USER_SERVICE_URL", "NODE_ENV", "CMS_SERVICE_URL"]
     }
   }
 }
