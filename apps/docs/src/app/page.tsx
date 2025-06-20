@@ -2,11 +2,15 @@ import Image from "next/image";
 
 import { Button } from "@workspace/ui/components/button";
 
+import { env } from "../lib/env";
+
 export default function Home() {
   return (
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
       <main className="row-start-2 flex flex-col items-center gap-[32px] sm:items-start">
         <Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
+        <p>Env is only available in the server component in next.js</p>
+        <p className="text-sm text-gray-500">{env.NODE_ENV}</p>
         <Button />
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm/6 sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
