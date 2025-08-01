@@ -16,6 +16,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
+    "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true
   }
 }

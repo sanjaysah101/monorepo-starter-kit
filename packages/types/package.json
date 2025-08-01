@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "@monorepo/typescript-config": "workspace:*",
-    "typescript": "latest"
+    "typescript": "^5.8.3"
   }
 }
