@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "type": "module",
   "private": true,
   "scripts": {
@@ -26,6 +26,7 @@
     "@types/react-dom": "19.1.7",
     "@monorepo/eslint-config": "workspace:*",
     "@monorepo/typescript-config": "workspace:*",
+    "@monorepo/types": "workspace:*",
     "eslint": "^9.32.0",
     "typescript": "^5.8.3"
   }
