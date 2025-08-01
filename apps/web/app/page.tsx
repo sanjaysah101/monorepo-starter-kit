@@ -4,7 +4,7 @@ import type { User } from "@monorepo/types/user";
 import { Button } from "@monorepo/ui/components";
 import { ThemeToggle } from "@monorepo/ui/theme";
 
-import { DASHBOARD_TITLE, SITE_NAME } from "../lib/constants";
+import { APP_CONFIG } from "../lib/constants";
 import { env } from "../lib/env";
 
 export default function Page(): ComponentProps<"div"> {
@@ -22,8 +22,8 @@ export default function Page(): ComponentProps<"div"> {
 
         <p>User is only available in the server component in next.js</p>
         <p className="text-sm text-gray-500">{user.name}</p>
-        <h1 className="text-2xl font-bold">{DASHBOARD_TITLE}</h1>
-        <p className="text-sm text-gray-500">{SITE_NAME}</p>
+        <h1 className="text-2xl font-bold">{APP_CONFIG.DASHBOARD_TITLE}</h1>
+        <p className="text-sm text-gray-500">{APP_CONFIG.SITE_NAME}</p>
         <p>Env is only available in the server component in next.js</p>
         <p className="text-sm text-gray-500">{env.NODE_ENV}</p>
         <Button size="sm" variant="default">

@@ -2,7 +2,6 @@
 
 import * as React from "react";
 
-import { Slot } from "@radix-ui/react-slot";
 import { Button } from "@monorepo/ui/components/button";
 import { Input } from "@monorepo/ui/components/input";
 import { Separator } from "@monorepo/ui/components/separator";
@@ -11,6 +10,7 @@ import { Skeleton } from "@monorepo/ui/components/skeleton";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@monorepo/ui/components/tooltip";
 import { useIsMobile } from "@monorepo/ui/hooks/use-mobile";
 import { cn } from "@monorepo/ui/lib/utils";
+import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 

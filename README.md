@@ -16,28 +16,28 @@ A comprehensive monorepo starter kit built with Turborepo, Next.js, and shadcn/u
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/your-username/monorepo-starter-kit.git
-    cd monorepo-starter-kit
-    ```
+   ```bash
+   git clone https://github.com/your-username/monorepo-starter-kit.git
+   cd monorepo-starter-kit
+   ```
 
 2. **Install dependencies:**
 
-    This project uses `pnpm` as the package manager.
+   This project uses `pnpm` as the package manager.
 
-    ```bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
 3. **Run the development server:**
 
-    This will start the development server for the `docs` application.
+   This will start the development server for the `docs` application.
 
-    ```bash
-    pnpm dev
-    ```
+   ```bash
+   pnpm dev
+   ```
 
-    Open <http://localhost:3000> with your browser to see the result.
+   Open <http://localhost:3000> with your browser to see the result.
 
 ## 📂 Monorepo Structure
 

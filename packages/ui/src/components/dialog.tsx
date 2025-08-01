@@ -2,8 +2,8 @@
 
 import * as React from "react";
 
-import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { cn } from "@monorepo/ui/lib/utils";
+import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { XIcon } from "lucide-react";
 
 function Dialog({ ...props }: React.ComponentProps<typeof DialogPrimitive.Root>) {

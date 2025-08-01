@@ -2,8 +2,8 @@
 
 import * as React from "react";
 
-import * as SelectPrimitive from "@radix-ui/react-select";
 import { cn } from "@monorepo/ui/lib/utils";
+import * as SelectPrimitive from "@radix-ui/react-select";
 import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from "lucide-react";
 
 function Select({ ...props }: React.ComponentProps<typeof SelectPrimitive.Root>) {
