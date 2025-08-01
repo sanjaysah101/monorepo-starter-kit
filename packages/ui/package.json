@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/ui",
+  "name": "@monorepo/ui",
   "version": "1.0.0",
   "type": "module",
   "private": true,
@@ -61,8 +61,8 @@
     "@types/node": "^24.1.0",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@monorepo/eslint-config": "workspace:*",
+    "@monorepo/typescript-config": "workspace:*",
     "eslint": "^9.32.0",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"

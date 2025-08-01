@@ -4,8 +4,8 @@ import * as React from "react";
 
 import * as LabelPrimitive from "@radix-ui/react-label";
 import { Slot } from "@radix-ui/react-slot";
-import { Label } from "@workspace/ui/components/label";
-import { cn } from "@workspace/ui/lib/utils";
+import { Label } from "@monorepo/ui/components/label";
+import { cn } from "@monorepo/ui/lib/utils";
 import {
   Controller,
   type ControllerProps,

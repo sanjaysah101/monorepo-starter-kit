@@ -1,7 +1,7 @@
 import { ComponentProps } from "react";
 
-import { Button } from "@workspace/ui/components";
-import { ThemeToggle } from "@workspace/ui/theme";
+import { Button } from "@monorepo/ui/components";
+import { ThemeToggle } from "@monorepo/ui/theme";
 
 import { DASHBOARD_TITLE, SITE_NAME } from "../lib/constants";
 import { env } from "../lib/env";
