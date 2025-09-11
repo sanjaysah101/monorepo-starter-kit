@@ -1,5 +1,3 @@
-import { ComponentProps } from "react";
-
 import type { User } from "@monorepo/types/user";
 import { Button } from "@monorepo/ui/components";
 import { ThemeToggle } from "@monorepo/ui/theme";
@@ -7,7 +5,7 @@ import { ThemeToggle } from "@monorepo/ui/theme";
 import { APP_CONFIG } from "../lib/constants";
 import { env } from "../lib/env";
 
-export default function Page(): ComponentProps<"div"> {
+export default function Page() {
   const user: User = {
     id: "123",
     email: "john@school.com",
