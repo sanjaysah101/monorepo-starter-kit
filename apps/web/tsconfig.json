@@ -5,8 +5,7 @@
     "paths": {
       "@/*": ["./*"],
       "@monorepo/eslint-config/*": ["../../packages/eslint-config/*"],
-      "@monorepo/ui/*": ["../../packages/ui/src/*"],
-      "@monorepo/types/*": ["../../packages/types/*"]
+      "@monorepo/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {

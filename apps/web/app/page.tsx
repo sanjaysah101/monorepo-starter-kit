@@ -1,4 +1,4 @@
-import type { User } from "@monorepo/types/user";
+import type { User } from "@monorepo/types";
 import { Button } from "@monorepo/ui/components";
 import { ThemeToggle } from "@monorepo/ui/theme";
 

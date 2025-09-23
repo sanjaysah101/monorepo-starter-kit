@@ -33,6 +33,7 @@ function PaginationLink({ className, isActive, size = "icon", ...props }: Pagina
   return (
     <a
       aria-current={isActive ? "page" : undefined}
+      aria-label={isActive ? "Current page" : "Go to page"}
       data-slot="pagination-link"
       data-active={isActive}
       className={cn(
@@ -92,9 +93,9 @@ function PaginationEllipsis({ className, ...props }: React.ComponentProps<"span"
 export {
   Pagination,
   PaginationContent,
-  PaginationLink,
-  PaginationItem,
-  PaginationPrevious,
-  PaginationNext,
   PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
 };
